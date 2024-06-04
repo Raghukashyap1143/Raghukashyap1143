@@ -1,0 +1,1 @@
+Congratulation You have successfully Completed on Understanding How ECS works and learnt how to create/pull image from Docker. also how task definition and ECR works. With this, you have completed all the exercises.
