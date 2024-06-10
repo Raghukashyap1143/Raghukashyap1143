@@ -1,0 +1,62 @@
+[
+    {
+      "Name": "How to Design a Lab Guide",
+      "Language": "English",
+        "BaseURL": "https://github.com/GaneshHC/solid-disco/tree/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation",
+      "Files": [
+
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/GaneshHC/solid-disco/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation/labvalid-page1.md",
+            "Order": 1
+             
+        },
+
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/GaneshHC/solid-disco/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation/labvalid-page2.md",
+            "Order": 2
+              
+             
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/GaneshHC/solid-disco/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation/labvalid-page3.md",
+            "Order": 3 
+            
+             
+        },
+         
+
+        { 
+            "RawFilePath": "https://raw.githubusercontent.com/GaneshHC/solid-disco/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation/labvalid-page4.md",
+            "Order": 4
+          
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/GaneshHC/solid-disco/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation/labvalid-page5.md",
+            "Order": 5,
+            "UnlockingRules": [
+                {
+                  "UnlockDependency": "Questions",
+                  "DependentQuestions": [ "https://raw.githubusercontent.com/GaneshHC/solid-disco/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation/valid-quest1.md", "https://raw.githubusercontent.com/GaneshHC/solid-disco/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation/valid-quest2.md" ],
+                  "UnlockCriteria": "AnsweredCorrectly"
+                }
+              ]
+             
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/GaneshHC/solid-disco/codespace-solid-disco-x6p4rpvjwj63vpv7/lab-validation/invalid-page6.md",
+          "Order": 6,
+          "UnlockingRules": [
+          {
+            "UnlockDependency": "Validations",
+            "UnlockCriteria": "Execution",
+            "DependentValidations": [
+              "778a12ac-7af2-4495-9f0b-06dafb327e44"
+              
+            ]
+          }
+        ]
+        }
+          
+      ]
+    }
+  ]
